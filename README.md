@@ -8,7 +8,7 @@ Eclipse
 ## Usage
 From root folder of this project, execute:
 ```bash
-java ./src/staircase/main.java
+java ./src/com/staircase/main.java
 ```
 
 This command will print out hint on command prompt:
