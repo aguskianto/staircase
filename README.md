@@ -17,7 +17,7 @@ to generate ' ' or '#' further enhance the performance of application.
 3. Streaming means when there is a value on the stream, program tends to execute data though the whole process has not finished yet. This means minimal latency in processing.
 
 ## Usage
-From root folder of this project, execute:
+From root folder of this project on command prompt, execute:
 ```bash
 java ./src/com/staircase/main.java
 ```
