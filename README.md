@@ -5,6 +5,16 @@ Staircase is a command line application that is built on JAVA 8.
 JAVA8
 Eclipse
 
+## Unique Features
+1. Use stream instead of array so memory usage is optimized. Program can be used for high throughput.
+2. Big O is optimized as the complexity is O(n) using: 
+```bash
+new char[max_height_value - i]).replace('\0', ' ')
+new char[i]).replace('\0', '#')
+```
+to generate ' ' or '#' further enhance the performance of application
+3. Streaming means when there is a value on the stream, program tends to execute data though the whole process has not finished yet. This means minimal latency in processing.
+
 ## Usage
 From root folder of this project, execute:
 ```bash
