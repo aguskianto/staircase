@@ -13,6 +13,7 @@ new char[max_height_value - i]).replace('\0', ' ')
 new char[i]).replace('\0', '#')
 ```
 to generate ' ' or '#' further enhance the performance of application.
+
 3. Streaming means when there is a value on the stream, program tends to execute data though the whole process has not finished yet. This means minimal latency in processing.
 
 ## Usage
